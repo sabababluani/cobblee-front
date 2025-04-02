@@ -1,0 +1,18 @@
+{
+  "Header": {
+    "Main": "Home",
+    "Cobbler": "Cobbler",
+    "Menu": "Menu",
+    "News": "News",
+    "Carrier": "Carrier",
+    "Contact": "Contact",
+    "AboutUs": "About Us",
+    "Snacks": "Snacks",
+    "Confectionery": "Confectionery"
+  },
+  "HomePage": {
+    "Heading": "Welcome to Cobbler Cafe - Sweet Happiness in Every Layer!",
+    "MainContent": "Cobbler Cafe - Sweet Happiness in Every Layer Our cozy cafe offers a diverse selection of breakfast/brunch options, making it the perfect spot for a peaceful morning or a delicious afternoon treat. Whether you're a Cobbler pro or a newbie to this delightful dessert, we promise a tasty experience that will keep you coming back for more.",
+    "More": "See More"
+  }
+}
