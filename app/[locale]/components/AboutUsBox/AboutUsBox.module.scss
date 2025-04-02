@@ -1,0 +1,42 @@
+.wrapper {
+  max-width: 1512px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.wrapper img {
+  border-radius: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.container h2 {
+  color: #11141a;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.container p {
+  color: #707276;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.button {
+  width: 129px;
+}
