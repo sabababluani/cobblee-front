@@ -30,6 +30,12 @@
     "Strawberry": "მარწყვი",
     "Dessert": "დესერტი",
     "TestemonialsHeading": "რას ამბობენ ჩვენი მომხმარებლები",
-    "TestemonialParagraph": "ჩვენი სტუმრები ამბობენ, რომ Cobbler -ში მოსული თითოეული ვიზიტი განსაკუთრებულია."
+    "TestemonialParagraph": "ჩვენი სტუმრები ამბობენ, რომ Cobbler -ში მოსული თითოეული ვიზიტი განსაკუთრებულია.",
+    "ContactHeading": "საკონტაქტო",
+    "Email": "ელფოსტა",
+    "QuestionsText": "კითხვების შემთვევაში დაგვიკავშირდით",
+    "Location": "ლოკაცია",
+    "WaitingInCafe": "გელოდებით ჩვენს კაფეში",
+    "ContactInfo": "საკონტაქტო ინფორმაცია"
   }
 }

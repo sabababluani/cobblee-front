@@ -26,26 +26,30 @@
   display: flex;
   justify-content: center;
   padding: 100px 0;
-  background: #FEFBF6;
+  background: #fefbf6;
 }
 
 .aboutUs {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #FEFBF6;
+  background: #fefbf6;
   padding-bottom: 100px;
 }
 
 .brandedSection {
   width: 100%;
-  background-color: #FDF8ED;
+  background-color: #fdf8ed;
 }
 
 .testemonials {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: #FEFBF6;
+  background: #fefbf6;
   padding: 132px 0;
+}
+
+.contactSection {
+  background-color: #fdf8ed;
 }

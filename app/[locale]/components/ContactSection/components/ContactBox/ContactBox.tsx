@@ -4,7 +4,7 @@ import { ContactBoxPropsInterface } from "./interfaces/contact-box-props.interfa
 
 const ContactBox = (props: ContactBoxPropsInterface) => {
   return (
-    <div>
+    <div className={styles.wrapper}>
       <div className={styles.contactBox}>
         <Image
           src={props.image}
@@ -14,6 +14,11 @@ const ContactBox = (props: ContactBoxPropsInterface) => {
           className={styles.contactIcon}
         />
       </div>
+      <div className={styles.content}>
+        <span className={styles.heading}>{props.heading}</span>
+        <p>{props.content}</p>
+      </div>
+      <span className={styles.address}>{props.address}</span>
     </div>
   );
 };

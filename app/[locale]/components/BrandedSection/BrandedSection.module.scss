@@ -24,12 +24,11 @@
 .container {
   max-width: 1512px;
   width: 100%;
-}
-
-.container {
   display: grid;
   row-gap: 60px;
   column-gap: 24px;
+  
+ align-content: center;
 
   grid-template-columns: repeat(1, 1fr);
 

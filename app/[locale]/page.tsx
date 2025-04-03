@@ -5,6 +5,8 @@ import AboutUsBox from "./components/AboutUsBox/AboutUsBox";
 import { getTranslations } from "next-intl/server";
 import BrandedSection from "./components/BrandedSection/BrandedSection";
 import Testemonials from "./components/Testemonials/Testemonials";
+import ContactSection from "./components/ContactSection/ContactSection";
+import Footer from "./components/Footer/Footer";
 
 export default async function Home() {
   const t = await getTranslations("HomePage");
@@ -28,6 +30,10 @@ export default async function Home() {
       <div className={styles.testemonials}>
         <Testemonials />
       </div>
+      <div className={styles.contactSection}>
+        <ContactSection />
+      </div>
+      <Footer />
     </div>
   );
 }

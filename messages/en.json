@@ -30,6 +30,12 @@
     "Strawberry": "Strawberry",
     "Dessert": "Dessert",
     "TestemonialsHeading": "What Our Customers Say",
-    "TestemonialParagraph": "Our guests say that every visit to Cobbler is special."
+    "TestemonialParagraph": "Our guests say that every visit to Cobbler is special.",
+    "ContactHeading": "Contact",
+    "Email": "Email",
+    "QuestionsText": "Contact us in case of questions",
+    "Location": "Location",
+    "WaitingInCafe": "We are waiting for you in our cafe",
+    "ContactInfo": "Contact Information"
   }
 }
