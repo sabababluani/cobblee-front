@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 488px;
+  width: 100%;
+}
+
+.dessert {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper img {
+  width: 100%;
+}
+
+.dessert span {
+  font-size: 14px;
+  color: #5d646f;
+  line-height: 24px;
+}
+
+.wrapper p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #11141a;
+}

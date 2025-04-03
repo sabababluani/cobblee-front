@@ -1,11 +1,11 @@
 import Image from "next/image";
 import styles from "./Header.module.scss";
 import { Link } from "@/i18n/navigation";
-import { useTranslations } from "next-intl";
 import Languages from "./components/Languages/Languages";
+import { getTranslations } from "next-intl/server";
 
-const Header = () => {
-  const t = useTranslations("Header");
+const Header = async () => {
+  const t = await getTranslations("Header");
 
   return (
     <header className={styles.wrapper}>

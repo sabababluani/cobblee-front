@@ -1,11 +1,13 @@
-import { useTranslations } from "next-intl";
 import ContentBox from "./components/ContentBox/ContentBox";
 import MainBanner from "./components/MainBanner/MainBanner";
 import styles from "./page.module.css";
 import AboutUsBox from "./components/AboutUsBox/AboutUsBox";
+import { getTranslations } from "next-intl/server";
+import BrandedSection from "./components/BrandedSection/BrandedSection";
+import Testemonials from "./components/Testemonials/Testemonials";
 
-export default function Home() {
-  const t = useTranslations("HomePage");
+export default async function Home() {
+  const t = await getTranslations("HomePage");
   return (
     <div className={styles.wrapper}>
       <MainBanner />
@@ -19,6 +21,12 @@ export default function Home() {
       </div>
       <div className={styles.aboutUs}>
         <AboutUsBox />
+      </div>
+      <div className={styles.brandedSection}>
+        <BrandedSection />
+      </div>
+      <div className={styles.testemonials}>
+        <Testemonials />
       </div>
     </div>
   );

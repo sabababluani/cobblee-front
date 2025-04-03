@@ -6,15 +6,46 @@
   max-width: 1512px;
 }
 
+.container {
+  display: grid;
+  gap: 24px;
+
+  grid-template-columns: repeat(1, 1fr);
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .content {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 100px 0;
+  background: #FEFBF6;
 }
 
 .aboutUs {
   width: 100%;
   display: flex;
   justify-content: center;
+  background: #FEFBF6;
+  padding-bottom: 100px;
+}
+
+.brandedSection {
+  width: 100%;
+  background-color: #FDF8ED;
+}
+
+.testemonials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #FEFBF6;
+  padding: 132px 0;
 }

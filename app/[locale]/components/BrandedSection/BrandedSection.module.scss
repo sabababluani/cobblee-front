@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding: 96px 24px;
+}
+
+.wrapper h3 {
+  font-size: 48px;
+  color: #000000;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.wrapper span {
+  color: #707276;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1512px;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  row-gap: 60px;
+  column-gap: 24px;
+
+  grid-template-columns: repeat(1, 1fr);
+
+  @media (min-width: 810px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
