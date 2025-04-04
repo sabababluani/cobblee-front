@@ -1,17 +1,19 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "@/i18n/navigation";
 import styles from "./Languages.module.scss";
 import Image from "next/image";
 
 const Languages = () => {
   const router = useRouter();
+  const pathname = usePathname();
 
-  const onBritainCLick = () => {
-    router.push("/en");
+  const onBritainClick = () => {
+    router.push(pathname, { locale: "en" });
   };
+
   const onGeorgianClick = () => {
-    router.push("/ka");
+    router.push(pathname, { locale: "ka" });
   };
 
   return (
@@ -21,7 +23,7 @@ const Languages = () => {
         width={40}
         height={40}
         alt="Britain Flag"
-        onClick={onBritainCLick}
+        onClick={onBritainClick}
       />
       <Image
         src={"/georgian.svg"}

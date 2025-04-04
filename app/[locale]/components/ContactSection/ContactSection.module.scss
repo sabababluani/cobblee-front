@@ -1,5 +1,5 @@
 .wrapper {
-  padding: 100px 0;
+  padding: 100px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,11 +14,15 @@
 }
 
 .contactSection {
+  max-width: 1512px;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr; 
   gap: 24px;
+
+  @media (min-width: 1023px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .map {

@@ -1,0 +1,56 @@
+.banner {
+  width: 100%;
+  background-image: url("../../../public/aboutUsPicture.png");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 551px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.banner h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 112px;
+  color: #fff;
+}
+
+.mouse {
+  border: 2px solid #fff;
+  width: 32px;
+  height: 48px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.cursor {
+  width: 2.5px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 24px;
+  position: absolute;
+  top: 12px;
+  animation: scrollCursor 1.5s infinite ease-in-out;
+}
+
+@keyframes scrollCursor {
+  0% {
+    top: 12px;
+    opacity: 1;
+  }
+  50% {
+    top: 20px;
+    opacity: 0.5;
+  }
+  100% {
+    top: 12px;
+    opacity: 1;
+  }
+}

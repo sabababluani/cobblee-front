@@ -1,0 +1,45 @@
+.wrapper {
+  max-width: 488px;
+  width: 100%;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.wrapper > img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleWrapper h2 {
+  color: #11141a;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contentWrapper p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #5c6370;
+}
+
+.contentWrapper span {
+  font-size: 16px;
+  line-height: 20px;
+  color: #5c6370;
+}

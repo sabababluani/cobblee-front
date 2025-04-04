@@ -8,7 +8,10 @@
     "Contact": "საკონტაქტო",
     "AboutUs": "ჩვენს შესახებ",
     "Snacks": "სნექები",
-    "Confectionery": "საკონდიტრო ნაწარმი"
+    "Confectionery": "საკონდიტრო ნაწარმი",
+    "Navigation": "ნავიგაცია",
+    "LeaveComment": "დაგვიტოვეთ კომენტარი",
+    "Waiting": "ველოდებით თქვენგან გამოხმაურებას"
   },
   "HomePage": {
     "Heading": "მოგესალმებით ქობლერის კაფეში - ტკბილი ბედნიერება თითოეულ ფენაში!",
@@ -37,5 +40,39 @@
     "Location": "ლოკაცია",
     "WaitingInCafe": "გელოდებით ჩვენს კაფეში",
     "ContactInfo": "საკონტაქტო ინფორმაცია"
+  },
+  "Snacks": {
+    "SnackHeading": "სნექი",
+    "Menu": "მენიუ",
+    "Main": "მთავარი",
+    "Snacks": "სნექები",
+    "BagelWithLore": "ბეიგელი ლორით, ჩედარითა და პესტოთი",
+    "BagelWithSalmon": "ბეიგელი ორაგულით და კრემყველით",
+    "AcharuliKhachapuri": "აჭარული ხაჭაპური",
+    "Khachapuri": "ტაფის ხაჭაპური",
+    "ChabataSandwich": "ჩაბატას სენდვიჩი ორაგულითა და  ლურჯი ყველით",
+    "CheeseLoreToast": "ყველის და ლორის ტოსტი",
+    "CroissantSandwich": "კრუასანის სენდვიჩი პესტოთი და ყველით",
+    "ChabataSandwichWithMozzarella": "ჩაბატას სენდვიჩი მოცარელათი და გამომცხვარი პომიდორით",
+    "CheeseToast": "ყველის ტოსტი"
+  },
+  "Confectionery": {
+    "ConfectioneryHeading": "საკონდიტრო ნაწარმი",
+    "Menu": "მენიუ",
+    "Main": "მთავარი",
+    "Cinannamon": "დარიჩინიs ხვეულა",
+    "Croissant": "კრუასანი",
+    "CroissantWithVanila": "კრუასანი ვანილის კრემით",
+    "NewYorkRoll": "ნიუ-იორკ როლი კრემით",
+    "RaisinRoll": "ქიშმიშის ხვეულა"
+  },
+  "News": {
+    "Main": "მთავარი",
+    "News": "სიახლეები",
+    "NewsHeading": "გაიგე მეტი",
+    "Cobbler": "Cobbler-ზე"
+  },
+  "AboutUs": {
+    "AboutUsHeading": "ჩვენს შესახებ"
   }
 }

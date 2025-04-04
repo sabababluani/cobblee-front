@@ -8,7 +8,10 @@
     "Contact": "Contact",
     "AboutUs": "About Us",
     "Snacks": "Snacks",
-    "Confectionery": "Confectionery"
+    "Confectionery": "Confectionery",
+    "Navigation": "Navigation",
+    "LeaveComment": "Leave a comment",
+    "Waiting": "We are waiting for your feedback"
   },
   "HomePage": {
     "Heading": "Welcome to Cobbler Cafe - Sweet Happiness in Every Layer!",
@@ -37,5 +40,39 @@
     "Location": "Location",
     "WaitingInCafe": "We are waiting for you in our cafe",
     "ContactInfo": "Contact Information"
+  },
+  "Snacks": {
+    "SnackHeading": "Snack",
+    "Menu": "Menu",
+    "Main": "Main",
+    "Snacks": "Snacks",
+    "BagelWithLore": "Bagel with Lore, Cheddar and Pesto",
+    "BagelWithSalmon": "Bagel with Salmon and Cream Cheese",
+    "AcharuliKhachapuri": "Acharuli Khachapuri",
+    "Khachapuri": "Khachapuri on the Pan",
+    "ChabataSandwich": "Chabata Sandwich with Salmon and Blue Cheese",
+    "CheeseLoreToast": "Cheese and Lore Toast",
+    "CroissantSandwich": "Croissant Sandwich with Pesto and Cheese",
+    "ChabataSandwichWithMozzarella": "Chabata Sandwich with Mozzarella and Baked Tomato",
+    "CheeseToast": "Cheese Toast"
+  },
+  "Confectionery": {
+    "ConfectioneryHeading": "Confectionery",
+    "Menu": "Menu",
+    "Main": "Main",
+    "Cinannamon": "Cinnamon Roll",
+    "Croissant": "Croissant",
+    "CroissantWithVanila": "Croissant with Vanilla Cream",
+    "NewYorkRoll": "New York Roll with Cream",
+    "RaisinRoll": "Raisin Roll"
+  },
+  "News": {
+    "Main": "Main",
+    "News": "News",
+    "NewsHeading": "Learn more about",
+    "Cobbler": "Cobbler"
+  },
+  "AboutUs": {
+    "AboutUsHeading": "About Us"
   }
 }

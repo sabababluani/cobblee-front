@@ -24,6 +24,14 @@
   font-weight: 400;
 }
 
+.subMenuWrapper span {
+  color: #5d646f;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
 .subMenuWrapper {
   position: relative;
 }
@@ -76,4 +84,10 @@
   .wrapper {
     justify-content: space-between;
   }
+}
+
+.bold {
+  color: #000000 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
 }

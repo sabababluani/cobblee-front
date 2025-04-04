@@ -1,22 +1,51 @@
 import Image from "next/image";
 import styles from "./Footer.module.scss";
+import Button from "../Button/Button";
+import { Link } from "@/i18n/navigation";
+import { getTranslations } from "next-intl/server";
 
-const Footer = () => {
+const Footer = async () => {
+  const t = await getTranslations("Header");
   return (
     <footer className={styles.wrapper}>
-      <div>
-        <Image
-          src={"/cobblerLogo.svg"}
-          alt="Cobbler Logo"
-          width={136}
-          height={72}
-        />
-        <p>
-          Enjoy Hassle Free Transactions Worldwide With Our Visionary Unique
-          Banking Products
-        </p>
-        <span>Support@cobbler.ge</span>
-        <span>+995 599 222 222</span>
+      <div className={styles.wrapperContainer}>
+        <div className={styles.container}>
+          <Image
+            src={"/cobblerLogo.svg"}
+            alt="Cobbler Logo"
+            width={136}
+            height={72}
+          />
+          <div className={styles.contact}>
+            <p>{t("LeaveComment")}</p>
+            <span>{t("Waiting")}</span>
+          </div>
+          <div className={styles.input}>
+            <input type="text" placeholder="მოგვწერეთ..." />
+            <Button title="გაგზავნა" />
+          </div>
+        </div>
+        <div className={styles.socials}>
+          <p>{t("Navigation")}</p>
+          <Link href={"#"}>{t("Main")}</Link>
+          <Link href={"#"}>{t("AboutUs")}</Link>
+          <Link href={"#"}>{t("Cobbler")}</Link>
+          <Link href={"#"}>{t("News")}</Link>
+          <Link href={"#"}>{t("Carrier")}</Link>
+          <Link href={"#"}>{t("Contact")}</Link>
+        </div>
+        <div className={styles.socials}>
+          <p>{t("Contact")}</p>
+          <span>Kote Afxadzis 34</span>
+          <span>+995 591-044-077</span>
+          <span>info@cobbler.ge</span>
+        </div>
+        <div className={styles.socials}>
+          <p>{t("Menu")}</p>
+          <Link href={"#"}>{t("Cobbler")}</Link>
+          <Link href={"#"}>{t("Snacks")}</Link>
+          <Link href={"#"}>{t("Confectionery")}</Link>
+        </div>
       </div>
     </footer>
   );

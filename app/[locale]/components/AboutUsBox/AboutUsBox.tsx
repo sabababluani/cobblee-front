@@ -9,7 +9,7 @@ const AboutUsBox = () => {
   return (
     <div className={styles.wrapper}>
       <Image
-        src={"/aboutUsIceCream.png"}
+        src={"/aboutUsPicture.png"}
         alt="ice cream"
         width={744}
         height={393}
