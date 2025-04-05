@@ -1,0 +1,18 @@
+.wrapper {
+  width: 100%;
+  background-image: url("../../../../../public/stats.png");
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 350px;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1512px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

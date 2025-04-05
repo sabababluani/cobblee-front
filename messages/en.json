@@ -11,7 +11,9 @@
     "Confectionery": "Confectionery",
     "Navigation": "Navigation",
     "LeaveComment": "Leave a comment",
-    "Waiting": "We are waiting for your feedback"
+    "Waiting": "We are waiting for your feedback",
+    "Send": "Send",
+    "SendMessage": "Send Message"
   },
   "HomePage": {
     "Heading": "Welcome to Cobbler Cafe - Sweet Happiness in Every Layer!",
@@ -73,6 +75,16 @@
     "Cobbler": "Cobbler"
   },
   "AboutUs": {
-    "AboutUsHeading": "About Us"
+    "AboutUsHeading": "About Us",
+    "AboutUsText1": "Cobbler Café is the best adventure of interesting flavors! Our atmospheric cafe in the center of Tbilisi, at Kote Apkhazi #34, welcomes you, where we offer our customers a wide variety of our signature dessert - Cobbler. Cobbler is a wonderful mix of fruit, crunchy crumble, and hot/cold cream, and we offer you many variations of this mix.",
+    "AboutUsText2": "We are proud to offer you a unique experience that combines the best of traditional and modern flavors. Our team of skilled chefs is dedicated to creating desserts that not only taste amazing but also look beautiful. We believe that dessert should be an experience, and we strive to make every visit to Cobbler Café a memorable one.",
+    "CoffeeCupBox": "Savor the rich flavor of our premium coffee—brewed to energize and delight your senses.",
+    "WifiBox": "Stay connected with our free Wi-Fi—perfect for work, relaxation, or catching up with friends.",
+    "DessertBox": "Indulge in our homemade desserts—sweet, fresh, and the perfect way to end your meal on a high note.",
+    "CoffeeBeansBox": "Discover unique coffee beans with rich flavors to suit every taste—bold, smooth, and everything in between.",
+    "Visitors": "Visitors",
+    "Events": "Events",
+    "CurrentProjects": "Current Projects",
+    "Experience": "Experience"
   }
 }

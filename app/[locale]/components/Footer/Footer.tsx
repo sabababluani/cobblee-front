@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./Footer.module.scss";
-import Button from "../Button/Button";
 import { Link } from "@/i18n/navigation";
 import { getTranslations } from "next-intl/server";
+import InputField from "./components/InputField/InputField";
 
 const Footer = async () => {
   const t = await getTranslations("Header");
@@ -20,10 +20,7 @@ const Footer = async () => {
             <p>{t("LeaveComment")}</p>
             <span>{t("Waiting")}</span>
           </div>
-          <div className={styles.input}>
-            <input type="text" placeholder="მოგვწერეთ..." />
-            <Button title="გაგზავნა" />
-          </div>
+          <InputField />
         </div>
         <div className={styles.socials}>
           <p>{t("Navigation")}</p>

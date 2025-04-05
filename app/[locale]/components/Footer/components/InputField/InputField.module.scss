@@ -1,0 +1,17 @@
+.input {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.input input {
+  max-width: 279px;
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #d5d7da;
+  box-shadow: 0px 1px 2px 0px #0a0d120d;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #717680;
+  outline: none;
+}

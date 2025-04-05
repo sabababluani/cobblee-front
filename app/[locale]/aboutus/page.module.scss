@@ -54,3 +54,78 @@
     opacity: 1;
   }
 }
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fefbf6;
+  padding: 100px 24px;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #626262;
+}
+
+.containerText {
+  max-width: 1512px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1512px;
+}
+
+.container {
+  display: grid;
+  gap: 24px;
+
+  grid-template-columns: repeat(1, 1fr);
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.boxesContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  padding: 100px 24px;
+  background: #fefbf6;
+}
+
+.collage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.collageContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.collageWrapper {
+  max-width: 1512px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
