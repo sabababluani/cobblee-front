@@ -1,0 +1,36 @@
+.menuLinks {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: absolute;
+  top: 90px;
+  left: 0px;
+
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
+  padding: 36px 24px;
+}
+
+.menuLinksVisible {
+  max-height: 500px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menuLinks a {
+  color: #5d646f;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bold {
+  color: #000000 !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}

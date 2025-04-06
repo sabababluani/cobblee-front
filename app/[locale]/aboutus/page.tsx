@@ -42,6 +42,7 @@ const AboutUs = async () => {
                 alt="Girl holding Phone"
                 width={360}
                 height={361}
+                // className={styles.phone}
               />
               <Image
                 src={"/aboutUsPicture.png"}
@@ -53,7 +54,8 @@ const AboutUs = async () => {
                 src={"/caffeFront.png"}
                 alt="Girl holding Phone"
                 width={359}
-                height={361}
+                height={261}
+                // className={styles.photo}
               />
             </div>
             <div className={styles.collageContainer}>
@@ -62,6 +64,7 @@ const AboutUs = async () => {
                 alt="Girl holding Phone"
                 width={1000}
                 height={361}
+                // className={styles.phone}
               />
               <Image
                 src={"/girlCoffe.png"}

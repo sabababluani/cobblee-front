@@ -28,24 +28,14 @@ const Confectionery = async () => {
             title={t("Cinannamon")}
           />
           <FoodBox
-            image={"/kruasani.png"}
-            dessert={t("ConfectioneryHeading")}
-            title={t("Croissant")}
-          />
-          <FoodBox
-            image={"/vanilaKruasani.png"}
-            dessert={t("ConfectioneryHeading")}
-            title={t("CroissantWithVanila")}
-          />
-          <FoodBox
-            image={"/vanilaKruasani.png"}
-            dessert={t("ConfectioneryHeading")}
-            title={t("NewYorkRoll")}
-          />
-          <FoodBox
             image={"/raisinRoll.png"}
             dessert={t("ConfectioneryHeading")}
             title={t("RaisinRoll")}
+          />
+          <FoodBox
+            image={"/kruasani.png"}
+            dessert={t("ConfectioneryHeading")}
+            title={t("Croissant")}
           />
         </div>
       </div>

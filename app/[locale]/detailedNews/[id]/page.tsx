@@ -38,7 +38,7 @@ const DetailedNews = () => {
           <h2>რეკომენდირებული</h2>
         </div>
         <div className={styles.recommendedNews}>
-          <Image src={"/news1.png"} alt="News Banner" width={114} height={76} />
+          <Image src={"/news3.png"} alt="News Banner" width={114} height={76} />
           <div className={styles.recommendedNewsText}>
             <p>Cobbler - ერთი წლის გახდა</p>
             <span>
@@ -48,7 +48,7 @@ const DetailedNews = () => {
           </div>
         </div>
         <div className={styles.recommendedNews}>
-          <Image src={"/news1.png"} alt="News Banner" width={114} height={76} />
+          <Image src={"/news3.png"} alt="News Banner" width={114} height={76} />
           <div className={styles.recommendedNewsText}>
             <p>Cobbler - ერთი წლის გახდა</p>
             <span>
@@ -58,7 +58,7 @@ const DetailedNews = () => {
           </div>
         </div>
         <div className={styles.recommendedNews}>
-          <Image src={"/news1.png"} alt="News Banner" width={114} height={76} />
+          <Image src={"/news3.png"} alt="News Banner" width={114} height={76} />
           <div className={styles.recommendedNewsText}>
             <p>Cobbler - ერთი წლის გახდა</p>
             <span>

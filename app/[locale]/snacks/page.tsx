@@ -42,11 +42,7 @@ const Snacks = async () => {
             dessert={t("SnackHeading")}
             title={t("Khachapuri")}
           />
-          <FoodBox
-            image={"/chabataSandwich.png"}
-            dessert={t("SnackHeading")}
-            title={t("ChabataSandwich")}
-          />
+
           <FoodBox
             image={"/toastLore.png"}
             dessert={t("SnackHeading")}
@@ -61,11 +57,6 @@ const Snacks = async () => {
             image={"/chabataSandwichTomato.png"}
             dessert={t("SnackHeading")}
             title={t("ChabataSandwichWithMozzarella")}
-          />
-          <FoodBox
-            image={"/toast.png"}
-            dessert={t("SnackHeading")}
-            title={t("CheeseToast")}
           />
         </div>
       </div>

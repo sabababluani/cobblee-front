@@ -53,3 +53,19 @@
 .contactSection {
   background-color: #fdf8ed;
 }
+
+@media (min-width: 810px) and (max-width: 1023px) {
+  .testemonials {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 809px) {
+  .testemonials {
+    padding: 14px 0;
+  }
+
+  .aboutUs {
+    padding-bottom: 30px;
+  }
+}

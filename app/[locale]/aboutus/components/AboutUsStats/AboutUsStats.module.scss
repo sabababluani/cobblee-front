@@ -7,12 +7,168 @@
   background-size: cover;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.wrapperTablet {
+  width: 100%;
+  background-image: url("../../../../../public/stats.png");
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 350px;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: none;
+  padding: 0 24px;
+}
+
+.wrapperMobile {
+  width: 100%;
+  background-image: url("../../../../../public/stats.png");
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 674px;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: none;
+  padding: 0 24px;
+}
+
+.containerMobile {
+  max-width: 328px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.containerTablet {
+  max-width: 1512px;
+  width: 100%;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .container {
   max-width: 1512px;
   width: 100%;
+  height: 104px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.tabletFirst {
+  position: relative;
+  right: 4px;
+}
+
+.position {
+  position: relative;
+  left: 100px;
+}
+
+.line2Mobile {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.line3Mobile {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.line4Mobile {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.line5Mobile {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+
+.line1 {
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+}
+
+.line2 {
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+}
+
+.line3 {
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+}
+
+.line4 {
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+}
+
+.line5 {
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+}
+
+.tablet {
+  display: flex;
+}
+
+.line2tablet {
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+}
+
+.line4tablet {
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+}
+
+@media (min-width: 810px) and (max-width: 1079px) {
+  .wrapper {
+    display: none;
+  }
+
+  .wrapperTablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 809px) {
+  .wrapperMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    display: none;
+  }
 }

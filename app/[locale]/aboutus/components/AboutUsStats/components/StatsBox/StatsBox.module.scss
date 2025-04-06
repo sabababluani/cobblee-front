@@ -1,6 +1,4 @@
 .wrapper {
-  border-left: 1px solid #fff;
-  border-right: 1px solid #fff;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -22,4 +20,22 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+}
+
+@media (min-width: 810px) and (max-width: 1023px) {
+}
+
+@media (max-width: 809px) {
+  .wrapper span {
+    font-size: 20px;
+  }
+
+  .wrapper p {
+    font-size: 14px;
+  }
+  .wrapper p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }

@@ -9,9 +9,10 @@
 
 .wrapper h3 {
   font-size: 48px;
-  color: #000000;
+  color: #980d08;
   line-height: 52px;
   font-weight: 700;
+  text-align: center;
 }
 
 .wrapper span {
@@ -19,6 +20,7 @@
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
+  text-align: center;
 }
 
 .container {
@@ -27,8 +29,8 @@
   display: grid;
   row-gap: 60px;
   column-gap: 24px;
-  
- align-content: center;
+
+  align-content: center;
 
   grid-template-columns: repeat(1, 1fr);
 
@@ -45,4 +47,22 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+@media (min-width: 810px) and (max-width: 1023px) {
+  .wrapper h3 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 809px) {
+  .wrapper h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .wrapper span {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

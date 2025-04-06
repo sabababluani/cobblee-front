@@ -33,3 +33,17 @@
   line-height: 24px;
   color: #11141a;
 }
+
+@media (min-width: 810px) and (max-width: 1023px) {
+
+}
+
+@media (max-width: 809px) {
+  .wrapper p {
+    font-size: 16px;
+  }
+
+  .dessert span {
+    line-height: 20px;
+  }
+}

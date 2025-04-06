@@ -16,7 +16,7 @@
     "SendMessage": "Send Message"
   },
   "HomePage": {
-    "Heading": "Welcome to Cobbler Cafe - Sweet Happiness in Every Layer!",
+    "Heading": "welcome to Cobbler Café - Sweet Bliss in every layer!",
     "MainContent": "Cobbler Cafe - Sweet Happiness in Every Layer Our cozy cafe offers a diverse selection of breakfast/brunch options, making it the perfect spot for a peaceful morning or a delicious afternoon treat. Whether you're a Cobbler pro or a newbie to this delightful dessert, we promise a tasty experience that will keep you coming back for more.",
     "More": "See More",
     "CoffeeCupBox": "Savor the rich flavor of our premium coffee—brewed to energize and delight your senses.",
@@ -41,7 +41,8 @@
     "QuestionsText": "Contact us in case of questions",
     "Location": "Location",
     "WaitingInCafe": "We are waiting for you in our cafe",
-    "ContactInfo": "Contact Information"
+    "ContactInfo": "Contact Information",
+    "Cobbler": "Cobbler"
   },
   "Snacks": {
     "SnackHeading": "Snack",
@@ -86,5 +87,5 @@
     "Events": "Events",
     "CurrentProjects": "Current Projects",
     "Experience": "Experience"
-  } 
+  }
 }

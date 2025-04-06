@@ -22,13 +22,14 @@
 .wrapper h1 {
   font-size: 80px;
   text-align: center;
-  color: #fff;
+  color: #faeccf;
   padding-bottom: 24px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .wrapper p {
-  color: #fff;
+  color: #faeccf;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -39,6 +40,10 @@
   .wrapper h1 {
     font-size: 48px;
   }
+
+  .wrapper {
+    height: 496px;
+  }
 }
 
 @media (max-width: 809px) {
@@ -48,5 +53,9 @@
 
   .wrapper p {
     font-size: 14px;
+  }
+
+  .wrapper {
+    height: 638px;
   }
 }
