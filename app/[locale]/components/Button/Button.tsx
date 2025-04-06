@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "./Button.module.scss";
 import { ButtonPropsInterface } from "./interfaces/buttton-props.interface";
 

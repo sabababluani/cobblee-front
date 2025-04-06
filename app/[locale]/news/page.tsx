@@ -23,6 +23,7 @@ const News = async () => {
         </h1>
         <div className={styles.container}>
           <NewsBox
+            id={"1"}
             image={"/news1.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}
@@ -31,6 +32,7 @@ const News = async () => {
             }
           />
           <NewsBox
+            id={"2"}
             image={"/news2.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}
@@ -39,6 +41,7 @@ const News = async () => {
             }
           />
           <NewsBox
+            id={"3"}
             image={"/news3.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}
@@ -47,6 +50,7 @@ const News = async () => {
             }
           />
           <NewsBox
+            id={"4"}
             image={"/news4.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}
@@ -55,6 +59,7 @@ const News = async () => {
             }
           />
           <NewsBox
+            id={"5"}
             image={"/news5.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}
@@ -63,6 +68,7 @@ const News = async () => {
             }
           />{" "}
           <NewsBox
+            id={"6"}
             image={"/news1.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}
@@ -71,6 +77,7 @@ const News = async () => {
             }
           />
           <NewsBox
+            id={"7"}
             image={"/news2.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}
@@ -79,6 +86,7 @@ const News = async () => {
             }
           />
           <NewsBox
+            id={"8"}
             image={"/news3.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}
@@ -87,6 +95,7 @@ const News = async () => {
             }
           />
           <NewsBox
+            id={"9"}
             image={"/news4.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}
@@ -95,6 +104,7 @@ const News = async () => {
             }
           />
           <NewsBox
+            id={"10"}
             image={"/news5.png"}
             date={"28 მარტი 2025"}
             title={"Cobbler - ერთი წლის გახდა"}

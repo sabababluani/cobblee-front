@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./AboutUsBox.module.scss";
 import { useTranslations } from "next-intl";
 import Button from "../Button/Button";
+import { Link } from "@/i18n/navigation";
 
 const AboutUsBox = () => {
   const t = useTranslations("HomePage");
@@ -20,7 +21,9 @@ const AboutUsBox = () => {
           <p>{t("HomePageAboutUsContent")}</p>
         </div>
         <div className={styles.button}>
-          <Button title={t("More")} />
+          <Link href={'/aboutus'}>
+            <Button title={t("More")} />
+          </Link>
         </div>
       </div>
     </div>

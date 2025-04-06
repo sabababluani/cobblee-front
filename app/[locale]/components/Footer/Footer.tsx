@@ -20,7 +20,10 @@ const Footer = async () => {
             <p>{t("LeaveComment")}</p>
             <span>{t("Waiting")}</span>
           </div>
-          <InputField />
+          <InputField
+            sendPlaceholder={`${t("SendMessage")}...`}
+            sendLabel={t("Send")}
+          />
         </div>
         <div className={styles.socials}>
           <p>{t("Navigation")}</p>

@@ -26,6 +26,9 @@ const Header = () => {
 
   const isAboutUsPage =
     pathname === "/en/aboutus" || pathname === "/ka/aboutus";
+
+  const isCarrierPage =
+    pathname === "/en/vacancies" || pathname === "/ka/vacancies";
   return (
     <header className={styles.wrapper}>
       <Link href="/">
@@ -65,7 +68,9 @@ const Header = () => {
         <Link href="/news" className={isNewsPage ? styles.bold : ""}>
           {t("News")}
         </Link>
-        <Link href="/">{t("Carrier")}</Link>
+        <Link href="/vacancies" className={isCarrierPage ? styles.bold : ""}>
+          {t("Carrier")}
+        </Link>
         <Link href="/">{t("Contact")}</Link>
         <Link href="/aboutus" className={isAboutUsPage ? styles.bold : ""}>
           {t("AboutUs")}

@@ -1,6 +1,7 @@
 export interface NewsBoxPropsInterface {
-    image: string;
-    date: string;
-    title: string;
-    description: string;
+  id: string;
+  image: string;
+  date: string;
+  title: string;
+  description: string;
 }

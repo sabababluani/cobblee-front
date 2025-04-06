@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1512px;
+  width: 100%;
+}
+
+.container h1 {
+  color: #11141a;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.96px;
+}
+
+.container p {
+  color: #626262;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  padding: 40px 24px 100px 24px;
+}
+
+.wrapperContainer {
+  max-width: 1512px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
