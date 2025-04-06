@@ -7,7 +7,7 @@ import InputField from "./components/InputField/InputField";
 const Footer = async () => {
   const t = await getTranslations("Header");
   return (
-    <footer className={styles.wrapper}>
+    <footer className={styles.wrapper} id="contact">
       <div className={styles.wrapperContainer}>
         <div className={styles.container}>
           <Image

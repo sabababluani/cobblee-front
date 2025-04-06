@@ -5,7 +5,7 @@ const Vacancies = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <h1>Vacancies</h1>
+        <h1>ვაკანსიები</h1>
         <p>
           ჩვენ ვთვლით, რომ თანამშრომლები ყველაზე მნიშვნელოვანი აქტივია. ვქმნით
           თანაბარ შესაძლებლობებს, სადაც სხვადასხვა კულტურისა და ღირებულებების

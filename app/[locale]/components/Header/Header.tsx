@@ -71,7 +71,7 @@ const Header = () => {
         <Link href="/vacancies" className={isCarrierPage ? styles.bold : ""}>
           {t("Carrier")}
         </Link>
-        <Link href="/">{t("Contact")}</Link>
+        <Link href="#contact">{t("Contact")}</Link>
         <Link href="/aboutus" className={isAboutUsPage ? styles.bold : ""}>
           {t("AboutUs")}
         </Link>

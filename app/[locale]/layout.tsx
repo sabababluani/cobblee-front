@@ -11,10 +11,11 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-
+  const fontClass = locale === "ka" ? "font-bpg" : "font-david";
+  
   return (
     <NextIntlClientProvider>
-      <html lang={locale}>
+      <html lang={locale} className={fontClass}>
         <body>
           <Header />
           {children}
