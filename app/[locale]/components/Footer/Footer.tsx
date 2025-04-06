@@ -25,26 +25,28 @@ const Footer = async () => {
             sendLabel={t("Send")}
           />
         </div>
-        <div className={styles.socials}>
-          <p>{t("Navigation")}</p>
-          <Link href={"#"}>{t("Main")}</Link>
-          <Link href={"#"}>{t("AboutUs")}</Link>
-          <Link href={"#"}>{t("Cobbler")}</Link>
-          <Link href={"#"}>{t("News")}</Link>
-          <Link href={"#"}>{t("Carrier")}</Link>
-          <Link href={"#"}>{t("Contact")}</Link>
-        </div>
-        <div className={styles.socials}>
-          <p>{t("Contact")}</p>
-          <span>Kote Afxadzis 34</span>
-          <span>+995 591-044-077</span>
-          <span>info@cobbler.ge</span>
-        </div>
-        <div className={styles.socials}>
-          <p>{t("Menu")}</p>
-          <Link href={"#"}>{t("Cobbler")}</Link>
-          <Link href={"#"}>{t("Snacks")}</Link>
-          <Link href={"#"}>{t("Confectionery")}</Link>
+        <div className={styles.details}>
+          <div className={styles.socials}>
+            <p>{t("Navigation")}</p>
+            <Link href={"#"}>{t("Main")}</Link>
+            <Link href={"#"}>{t("AboutUs")}</Link>
+            <Link href={"#"}>{t("Cobbler")}</Link>
+            <Link href={"#"}>{t("News")}</Link>
+            <Link href={"#"}>{t("Carrier")}</Link>
+            <Link href={"#"}>{t("Contact")}</Link>
+          </div>
+          <div className={styles.socials}>
+            <p>{t("Contact")}</p>
+            <span>Kote Afxadzis 34</span>
+            <span>+995 591-044-077</span>
+            <span>info@cobbler.ge</span>
+          </div>
+          <div className={styles.socials}>
+            <p>{t("Menu")}</p>
+            <Link href={"#"}>{t("Cobbler")}</Link>
+            <Link href={"#"}>{t("Snacks")}</Link>
+            <Link href={"#"}>{t("Confectionery")}</Link>
+          </div>
         </div>
       </div>
     </footer>

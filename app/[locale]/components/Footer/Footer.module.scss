@@ -11,6 +11,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .container {
@@ -54,6 +55,7 @@
   flex-direction: column;
   gap: 12px;
   line-height: 24px;
+  flex: 1;
 }
 
 .socials a {
@@ -68,4 +70,30 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  max-width: 874px;
+  width: 100%;
+}
+
+@media (min-width: 810px) and (max-width: 1023px) {
+  .wrapperContainer {
+    flex-direction: column;
+    gap: 48px;
+  }
+}
+
+@media (max-width: 809px) {
+  .wrapperContainer {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .details {
+    flex-direction: column;
+    
+    gap: 24px;
+  }
 }
