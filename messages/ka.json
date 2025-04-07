@@ -55,8 +55,8 @@
     "Khachapuri": "ტაფის ხაჭაპური",
     "ChabataSandwich": "ჩაბატას სენდვიჩი ორაგულითა და  ლურჯი ყველით",
     "CheeseLoreToast": "ყველის და ლორის ტოსტი",
-    "CroissantSandwich": "ჩაბატას სენდვიჩი პესტოთი და ყველით",
-    "ChabataSandwichWithMozzarella": "ჩაბატას სენდვიჩი მოცარელათი და გამომცხვარი პომიდორით",
+    "CroissantSandwich": "ჩაბატას სენდვიჩი მოცარელათი და გამომცხვარი პომიდვრით",
+    "ChabataSandwichWithMozzarella": "ჩაბატას სენდვიჩი ორაგულითა და ლურჯი ყველით",
     "CheeseToast": "ყველის ტოსტი"
   },
   "Confectionery": {
@@ -67,7 +67,7 @@
     "Croissant": "კრუასანი",
     "CroissantWithVanila": "კრუასანი ვანილის კრემით",
     "NewYorkRoll": "ნიუ-იორკ როლი კრემით",
-    "RaisinRoll": "ქიშმიშის ხვეულა"
+    "RaisinRoll": "ნიუ-იორკ როლი კრემით"
   },
   "News": {
     "Main": "მთავარი",

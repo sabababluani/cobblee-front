@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import styles from "./FirstBackground.module.scss";
-import Image from "next/image";
 
 const BlurBackground = () => {
   const [isFirstVisit, setIsFirstVisit] = useState(false);
@@ -34,7 +33,7 @@ const BlurBackground = () => {
         <div className={styles.blurBackground}>
           <div className={styles.content}>
             <h1>Cobbler - It&apos;s been a year already...</h1>
-            <Image src={"/2.gif"} alt="gif" width={305} height={315} />
+            <img src={"/2.gif"} alt="gif" width={305} height={315} />
           </div>
         </div>
       )}

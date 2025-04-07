@@ -13,9 +13,9 @@ const AboutUsStats = async () => {
           <div className={styles.line2}></div>
           <StatsBox quantity={"200"} label={t("Events")} />
           <div className={styles.line3}></div>
-          <StatsBox quantity={"7"} label={t("CurrentProjects")} />
+          <StatsBox quantity={"100,000"} label={t("CurrentProjects")} />
           <div className={styles.line4}></div>
-          <StatsBox quantity={"1"} label={t("Experience")} />
+          <StatsBox quantity={"5"} label={t("Experience")} />
           <div className={styles.line5}></div>
         </div>
       </div>
@@ -30,9 +30,9 @@ const AboutUsStats = async () => {
               </div>
             </div>
             <div className={styles.tablet}>
-              <StatsBox quantity={"7"} label={t("CurrentProjects")} />
+              <StatsBox quantity={"100,000"} label={t("CurrentProjects")} />
               <div className={styles.line4tablet}></div>
-              <StatsBox quantity={"1"} label={t("Experience")} />
+              <StatsBox quantity={"5"} label={t("Experience")} />
             </div>
           </div>
         </div>
@@ -43,9 +43,9 @@ const AboutUsStats = async () => {
           <div className={styles.line2Mobile}></div>
           <StatsBox quantity={"200"} label={t("Events")} />
           <div className={styles.line3Mobile}></div>
-          <StatsBox quantity={"7"} label={t("CurrentProjects")} />
+          <StatsBox quantity={"100,000"} label={t("CurrentProjects")} />
           <div className={styles.line4Mobile}></div>
-          <StatsBox quantity={"1"} label={t("Experience")} />
+          <StatsBox quantity={"5"} label={t("Experience")} />
           <div className={styles.line5Mobile}></div>
         </div>
       </div>
