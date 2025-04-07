@@ -27,7 +27,7 @@ const DetailedNews = () => {
         </div>
         <span>{newsItem?.description}</span>
         <Image
-          src={newsItem?.image!}
+          src={newsItem?.image || ""}
           alt="News Banner"
           width={1000}
           height={595}

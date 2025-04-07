@@ -23,7 +23,7 @@ const BurgerMenu = ({
   const t = useTranslations("Header");
   const pathname = usePathname();
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleClick = () => {
     onClose();
   };
 

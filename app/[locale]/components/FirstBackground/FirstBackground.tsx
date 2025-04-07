@@ -33,7 +33,7 @@ const BlurBackground = () => {
       {isFirstVisit && (
         <div className={styles.blurBackground}>
           <div className={styles.content}>
-            <h1>Cobbler - It's been a year already...</h1>
+            <h1>Cobbler - It&apos;s been a year already...</h1>
             <Image src={"/2.gif"} alt="gif" width={305} height={315} />
           </div>
         </div>
