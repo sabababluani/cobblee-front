@@ -103,8 +103,11 @@
   padding: 0 0 20px 0;
 }
 
-// @media (min-width: 810px) and (max-width: 1023px) {
-// }
+@media (max-width: 1023px) {
+  .wrapper img {
+    height: 320px;
+  }
+}
 
 @media (max-width: 1484px) {
   .container {

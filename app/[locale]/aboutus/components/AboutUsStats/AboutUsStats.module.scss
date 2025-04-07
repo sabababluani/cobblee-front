@@ -26,7 +26,7 @@
   width: 100%;
   background-image: url("../../../../../public/stats.png");
   background-color: rgba(0, 0, 0, 0.5);
-  height: 674px;
+  height: 474px;
   background-blend-mode: multiply;
   background-size: cover;
   display: none;
@@ -161,7 +161,7 @@
   }
 }
 
-@media (max-width: 809px) {
+@media (max-width: 810px) {
   .wrapperMobile {
     display: flex;
     justify-content: center;

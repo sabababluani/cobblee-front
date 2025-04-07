@@ -43,3 +43,34 @@
   line-height: 20px;
   color: #5c6370;
 }
+
+@media (min-width: 810px) and (max-width: 1023px) {
+  .titleWrapper h2 {
+    font-size: 20px;
+  }
+
+  .titleWrapper h2 {
+    font-size: 16px;
+  }
+
+  .contentWrapper span {
+    font-size: 14px;
+  }
+
+  .contentWrapper p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 809px) {
+  .titleWrapper h2 {
+    font-size: 16px;
+  }
+
+  .contentWrapper span {
+    font-size: 14px;
+  }
+  .contentWrapper p {
+    font-size: 14px;
+  }
+}

@@ -36,43 +36,36 @@ const AboutUs = async () => {
         </div>
         <div className={styles.collage}>
           <div className={styles.collageWrapper}>
-            <div className={styles.collageContainer}>
-              <Image
-                src={"/phone.png"}
-                alt="Girl holding Phone"
-                width={360}
-                height={361}
-                // className={styles.phone}
-              />
-              <Image
-                src={"/aboutUsPicture.png"}
-                alt="Girl holding Phone"
-                width={745}
-                height={361}
-              />
-              <Image
-                src={"/caffeFront.png"}
-                alt="Girl holding Phone"
-                width={359}
-                height={261}
-                // className={styles.photo}
-              />
-            </div>
-            <div className={styles.collageContainer}>
-              <Image
-                src={"/MainBackground.png"}
-                alt="Girl holding Phone"
-                width={1000}
-                height={361}
-                // className={styles.phone}
-              />
-              <Image
-                src={"/girlCoffe.png"}
-                alt="Girl holding Phone"
-                width={488}
-                height={361}
-              />
-            </div>
+            <Image
+              src={"/phone.png"}
+              alt="Girl holding Phone"
+              width={360}
+              height={321}
+            />
+            <Image
+              src={"/aboutUsPicture.png"}
+              alt="Girl holding Phone"
+              width={745}
+              height={361}
+            />
+            <Image
+              src={"/caffeFront.png"}
+              alt="Girl holding Phone"
+              width={359}
+              height={361}
+            />
+            <Image
+              src={"/mainBackground.png"}
+              alt="Girl holding Phone"
+              width={1000}
+              height={361}
+            />
+            <Image
+              src={"/girlCoffe.png"}
+              alt="Girl holding Phone"
+              width={488}
+              height={361}
+            />
           </div>
         </div>
       </div>

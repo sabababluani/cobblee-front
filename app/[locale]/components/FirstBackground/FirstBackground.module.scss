@@ -1,5 +1,5 @@
 .blurBackground {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -20,7 +20,7 @@
 }
 
 .content h1 {
-  color: #FAECCF;
+  color: #faeccf;
   font-size: 64px;
   font-weight: 700;
 }
@@ -66,4 +66,16 @@
   width: 0;
   animation: typing 4s steps(40, end) forwards,
     blinkCaret 0.75s step-end infinite;
+}
+
+@media (max-width: 1023px) {
+  .content h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 710px) {
+  .content h1 {
+    font-size: 22px;
+  }
 }

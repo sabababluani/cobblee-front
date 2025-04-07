@@ -11,7 +11,6 @@ const Testemonials = () => {
     <div className={styles.wrapper}>
       <div className={styles.container}>
         <h3>{t("TestemonialsHeading")}</h3>
-        <p>{t("TestemonialParagraph")}</p>
       </div>
       <div className={styles.testemonialsWrapper}>
         <div className={styles.testemonials}>

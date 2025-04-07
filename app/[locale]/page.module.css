@@ -58,11 +58,19 @@
   .testemonials {
     padding: 60px 0;
   }
+
+  .content {
+    padding: 60px 24px;
+  }
 }
 
 @media (max-width: 809px) {
   .testemonials {
     padding: 14px 0;
+  }
+
+  .content {
+    padding: 40px 24px;
   }
 
   .aboutUs {

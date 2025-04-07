@@ -8,11 +8,11 @@ const BlurBackground = () => {
   const [isFirstVisit, setIsFirstVisit] = useState(false);
 
   useEffect(() => {
-    const firstVisit = localStorage.getItem("firstVisit");
+    const firstVisit = sessionStorage.getItem("firstVisit");
 
     if (!firstVisit) {
       setIsFirstVisit(true);
-      localStorage.setItem("firstVisit", "true");
+      sessionStorage.setItem("firstVisit", "true");
 
       document.body.style.overflow = "hidden";
 

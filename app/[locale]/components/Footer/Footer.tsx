@@ -28,12 +28,11 @@ const Footer = async () => {
         <div className={styles.details}>
           <div className={styles.socials}>
             <p>{t("Navigation")}</p>
-            <Link href={"#"}>{t("Main")}</Link>
-            <Link href={"#"}>{t("AboutUs")}</Link>
-            <Link href={"#"}>{t("Cobbler")}</Link>
-            <Link href={"#"}>{t("News")}</Link>
-            <Link href={"#"}>{t("Carrier")}</Link>
-            <Link href={"#"}>{t("Contact")}</Link>
+            <Link href={"/"}>{t("Main")}</Link>
+            <Link href={"/aboutus"}>{t("AboutUs")}</Link>
+            <Link href={"/cobbler"}>{t("Cobbler")}</Link>
+            <Link href={"/news"}>{t("News")}</Link>
+            <Link href={"/carrier"}>{t("Carrier")}</Link>
           </div>
           <div className={styles.socials}>
             <p>{t("Contact")}</p>
@@ -43,9 +42,9 @@ const Footer = async () => {
           </div>
           <div className={styles.socials}>
             <p>{t("Menu")}</p>
-            <Link href={"#"}>{t("Cobbler")}</Link>
-            <Link href={"#"}>{t("Snacks")}</Link>
-            <Link href={"#"}>{t("Confectionery")}</Link>
+            <Link href={"/cobbler"}>{t("Cobbler")}</Link>
+            <Link href={"/snacks"}>{t("Snacks")}</Link>
+            <Link href={"/confectionery"}>{t("Confectionery")}</Link>
           </div>
         </div>
       </div>

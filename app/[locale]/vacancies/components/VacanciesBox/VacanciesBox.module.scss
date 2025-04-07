@@ -41,3 +41,27 @@
   font-weight: 400;
   line-height: 24px;
 }
+
+@media (max-width: 1023px) {
+  .texts p {
+    font-size: 16px;
+  }
+
+  .imageContainer {
+    width: 48px;
+    height: 48px;
+  }
+
+  .imageContainer img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .texts {
+    gap: 0px;
+  }
+
+  .texts span {
+    font-size: 14px;
+  }
+}

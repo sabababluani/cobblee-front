@@ -20,7 +20,7 @@
 }
 
 .container h2 {
-  color: #980D08;
+  color: #980d08;
   font-size: 40px;
   font-weight: 700;
 }
@@ -60,17 +60,28 @@
 
 @media (max-width: 809px) {
   .container h2 {
-    font-size: 20px;
+    font-size: 32px;
     line-height: 24px;
   }
+
+  .wrapper img {
+    height: 280px;
+  }
+
+  .content {
+    height: unset;
+  }
+
   .wrapper {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .container p {
     font-size: 14px;
     line-height: 20px;
   }
+
   .content {
     justify-content: flex-start;
   }
