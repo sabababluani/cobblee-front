@@ -28,6 +28,7 @@
   flex-direction: column;
   gap: 60px;
   padding: 40px 24px 100px 24px;
+  background: #fefbf6;
 }
 
 .wrapperContainer {
@@ -45,6 +46,16 @@
   }
 
   .container p {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .container h1 {
+    font-size: 24px;
+  }
+
+  .wrapper {
+    gap: 32px;
+    padding: 20px 24px 50px 24px;
   }
 }

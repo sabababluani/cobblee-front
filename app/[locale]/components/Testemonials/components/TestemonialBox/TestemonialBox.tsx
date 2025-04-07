@@ -17,12 +17,7 @@ const TestemonialBox = (props: TestemonialBoxPropsInterface) => {
           <span>{props.date}</span>
         </div>
       </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit.
-        Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim
-        magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis.
-        Ornare tincidunt tempus semper
-      </p>
+      <p>{props.description}</p>
       <div className={styles.rating}>
         <Image src={"/fullstar.svg"} alt="star" width={14} height={14} />
         <Image src={"/fullstar.svg"} alt="star" width={14} height={14} />

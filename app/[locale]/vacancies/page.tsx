@@ -13,9 +13,17 @@ const Vacancies = () => {
         </p>
       </div>
       <div className={styles.wrapperContainer}>
-        <VacanciesBox id={"1"} image={"/carbonbar.svg"} title={"ბარმენი"} />
-        <VacanciesBox id={"2"} image={"/waites.svg"} title={"მიმტანი"} />
-        <VacanciesBox id={"3"} image={"/manager.svg"} title={"მენეჯერი"} />
+        <VacanciesBox
+          id={"barista"}
+          image={"/carbonbar.svg"}
+          title={"ბარისტა"}
+        />
+        <VacanciesBox id={"cook"} image={"/waites.svg"} title={"მზარეული"} />
+        <VacanciesBox
+          id={"cleaner"}
+          image={"/manager.svg"}
+          title={"დამლაგებელი"}
+        />
       </div>
     </div>
   );

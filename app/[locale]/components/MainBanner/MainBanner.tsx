@@ -9,7 +9,7 @@ const MainBanner = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <h1>welcome to Cobbler Café - Sweet Bliss in every layer!</h1>
+        <h1>welcome to Cobbler Cafe - Sweet Bliss in every layer!</h1>
         <p>{t("MainContent")}</p>
       </div>
       <Link href={"/aboutus"}>

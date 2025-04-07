@@ -4,10 +4,8 @@ import { VacanciesBoxPropsInterface } from "./interfaces/vacancies-box-props.int
 import { Link } from "@/i18n/navigation";
 
 const VacanciesBox = (props: VacanciesBoxPropsInterface) => {
-
-
   return (
-    <Link href={`/vacancie/${props.id}`}>
+    <Link href={`${props.id}`}>
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <div className={styles.imageContainer}>
@@ -20,7 +18,7 @@ const VacanciesBox = (props: VacanciesBoxPropsInterface) => {
           </div>
           <div className={styles.texts}>
             <p>{props.title}</p>
-            <span>Cafe</span>
+            <span>კაფე</span>
           </div>
         </div>
         <Image src={"/link.svg"} alt="link" width={24} height={24} />
