@@ -20,7 +20,12 @@ const InputField = ({ sendPlaceholder, sendLabel }: InputFieldProps) => {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <Button title={sendLabel} />
+      <Button
+        title={sendLabel}
+        onClick={() => {
+          setText("");
+        }}
+      />
     </div>
   );
 };

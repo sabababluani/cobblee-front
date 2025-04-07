@@ -100,12 +100,6 @@ const Header = () => {
             {t("AboutUs")}
           </Link>
         </div>
-        {/* <div className={styles.burgerWrapper}>
-          <div className={styles.burger}>
-            <Image src={"/burger.svg"} alt="Burger" width={48} height={48} />
-          </div>
-          <Languages />
-        </div> */}
         <div className={styles.burgerWrapper}>
           <div ref={menuRef}>
             <div

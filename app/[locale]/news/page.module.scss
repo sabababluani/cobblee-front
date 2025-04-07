@@ -74,3 +74,13 @@
   text-decoration: underline;
   text-transform: uppercase;
 }
+
+@media (max-width: 810px) {
+  .contentWrapper h1 {
+    font-size: 24px;
+  }
+
+  .underLine {
+    font-size: 24px;
+  }
+}
