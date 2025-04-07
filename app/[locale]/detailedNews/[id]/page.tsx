@@ -25,7 +25,7 @@ const DetailedNews = () => {
               <span>{">"}</span>
               <span className={styles.cobbler}>{t("News")}</span>
             </div>
-            <h1>{newsItem?.title}</h1>
+            <h1>{t("Title1")}</h1>
           </div>
           <span>{newsItem?.description}</span>
           <Image

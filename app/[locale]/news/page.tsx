@@ -26,10 +26,8 @@ const News = async () => {
             id={"1"}
             image={"/news1.png"}
             date={"28 მარტი 2025"}
-            title={"Cobbler - ერთი წლის გახდა"}
-            description={
-              "Cobbler ერთი წლის გახდა - დრო გავიდა და ამ ერთი წლის განმავლობაში უამრავი გემრიელი მომენტი შევქმენით ჩვენს სტუმრებთან ერთად..."
-            }
+            title={t("Title1")}
+            description={t("Description1")}
           />
         </div>
       </div>
