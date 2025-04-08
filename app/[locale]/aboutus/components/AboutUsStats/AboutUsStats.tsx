@@ -9,13 +9,13 @@ const AboutUsStats = async () => {
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <div className={styles.line1}></div>
-          <StatsBox quantity={"100,000"} label={t("Visitors")} />
+          <StatsBox quantity={"15,382"} label={t("Visitors")} />
           <div className={styles.line2}></div>
-          <StatsBox quantity={"200"} label={t("Events")} />
+          <StatsBox quantity={"3"} label={t("Events")} />
           <div className={styles.line3}></div>
-          <StatsBox quantity={"100,000"} label={t("CurrentProjects")} />
+          <StatsBox quantity={"1"} label={t("CurrentProjects")} />
           <div className={styles.line4}></div>
-          <StatsBox quantity={"5"} label={t("Experience")} />
+          <StatsBox quantity={"1"} label={t("Experience")} />
           <div className={styles.line5}></div>
         </div>
       </div>
@@ -23,29 +23,29 @@ const AboutUsStats = async () => {
         <div className={styles.containerTablet}>
           <div className={styles.containerWrapper}>
             <div className={`${styles.tablet} ${styles.tabletFirst}`}>
-              <StatsBox quantity={"100,000"} label={t("Visitors")} />
+              <StatsBox quantity={"15,382"} label={t("Visitors")} />
               <div className={styles.line2tablet}></div>
               <div className={styles.position}>
-                <StatsBox quantity={"200"} label={t("Events")} />
+                <StatsBox quantity={"3"} label={t("Events")} />
               </div>
             </div>
             <div className={styles.tablet}>
-              <StatsBox quantity={"100,000"} label={t("CurrentProjects")} />
+              <StatsBox quantity={"1"} label={t("CurrentProjects")} />
               <div className={styles.line4tablet}></div>
-              <StatsBox quantity={"5"} label={t("Experience")} />
+              <StatsBox quantity={"1"} label={t("Experience")} />
             </div>
           </div>
         </div>
       </div>
       <div className={styles.wrapperMobile}>
         <div className={styles.containerMobile}>
-          <StatsBox quantity={"100,000"} label={t("Visitors")} />
+          <StatsBox quantity={"15,382"} label={t("Visitors")} />
           <div className={styles.line2Mobile}></div>
-          <StatsBox quantity={"200"} label={t("Events")} />
+          <StatsBox quantity={"3"} label={t("Events")} />
           <div className={styles.line3Mobile}></div>
-          <StatsBox quantity={"100,000"} label={t("CurrentProjects")} />
+          <StatsBox quantity={"1"} label={t("CurrentProjects")} />
           <div className={styles.line4Mobile}></div>
-          <StatsBox quantity={"5"} label={t("Experience")} />
+          <StatsBox quantity={"1"} label={t("Experience")} />
           <div className={styles.line5Mobile}></div>
         </div>
       </div>
