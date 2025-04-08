@@ -93,7 +93,27 @@
   }
   .details {
     flex-direction: column;
-    
+
     gap: 24px;
+  }
+
+  .contact p {
+    font-size: 20px;
+  }
+
+  .contact span {
+    font-size: 16px;
+  }
+
+  .socials p {
+    font-size: 20px;
+  }
+
+  .socials a {
+    font-size: 16px;
+  }
+
+  .socials span {
+    font-size: 16px;
   }
 }

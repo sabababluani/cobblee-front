@@ -14,7 +14,7 @@ html {
 
 @font-face {
   font-family: "BPG Nino Mtavruli";
-  src: url("./fonts/bpg_nino_mtavruli_bold.ttf") format("truetype");
+  src: url("./fonts/bpg_nino_mtavruli_normal.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
