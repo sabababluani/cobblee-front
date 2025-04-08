@@ -57,7 +57,7 @@
 
 @media (max-width: 809px) {
   .wrapper h3 {
-    font-size: 32px;
+    font-size: 24px;
     line-height: 36px;
   }
 
@@ -70,6 +70,7 @@
   }
 
   .wrapper {
+    gap: 24px;
     padding: 40px 24px;
   }
 }

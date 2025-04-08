@@ -49,12 +49,19 @@
     flex-direction: column;
     align-items: flex-start;
   }
+   .container {
+    gap: 12px;
+  }
 }
 
 @media (min-width: 810px) and (max-width: 1023px) {
   .wrapper {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .container {
+    gap: 12px;
   }
 }
 
@@ -80,6 +87,10 @@
   .container p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .container {
+    gap: 12px;
   }
 
   .content {

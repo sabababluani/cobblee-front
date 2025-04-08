@@ -14,32 +14,32 @@ const BrandedSection = async () => {
       <div className={styles.container}>
         <FoodBox
           image={"/iceCream1.png"}
-          dessert={t("Dessert")}
+          dessert={t("Cobbler")}
           title={t("Berries")}
         />
         <FoodBox
           image={"/iceCream2.png"}
-          dessert={t("Dessert")}
+          dessert={t("Cobbler")}
           title={t("ApplePearCinnamon")}
         />
         <FoodBox
           image={"/iceCream3.png"}
-          dessert={t("Dessert")}
+          dessert={t("Cobbler")}
           title={t("DubaiChocolate")}
         />
         <FoodBox
           image={"/iceCream4.png"}
-          dessert={t("Dessert")}
+          dessert={t("Cobbler")}
           title={t("MangoPassionFruit")}
         />
         <FoodBox
           image={"/iceCream5.png"}
-          dessert={t("Dessert")}
+          dessert={t("Cobbler")}
           title={t("Kiwi")}
         />
         <FoodBox
           image={"/iceCream6.png"}
-          dessert={t("Dessert")}
+          dessert={t("Cobbler")}
           title={t("Strawberry")}
         />
       </div>
