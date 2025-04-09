@@ -2,9 +2,11 @@ import { Link } from "@/i18n/navigation";
 import styles from "./page.module.scss";
 import FoodBox from "../components/FoodBox/FoodBox";
 import { getTranslations } from "next-intl/server";
+import { cobblerItems } from "./utils/cobbler-items"; 
 
 const Cobbler = async () => {
   const t = await getTranslations("HomePage");
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.contentWrapper}>
@@ -18,36 +20,14 @@ const Cobbler = async () => {
           </Link>
         </div>
         <div className={styles.container}>
-          <FoodBox
-            image={"/iceCream1.png"}
-            dessert={t("Cobbler")}
-            title={t("Berries")}
-          />
-          <FoodBox
-            image={"/iceCream2.png"}
-            dessert={t("Cobbler")}
-            title={t("ApplePearCinnamon")}
-          />
-          <FoodBox
-            image={"/iceCream3.png"}
-            dessert={t("Cobbler")}
-            title={t("DubaiChocolate")}
-          />
-          <FoodBox
-            image={"/iceCream4.png"}
-            dessert={t("Cobbler")}
-            title={t("MangoPassionFruit")}
-          />
-          <FoodBox
-            image={"/iceCream5.png"}
-            dessert={t("Cobbler")}
-            title={t("Kiwi")}
-          />
-          <FoodBox
-            image={"/iceCream6.png"}
-            dessert={t("Cobbler")}
-            title={t("Strawberry")}
-          />
+          {cobblerItems.map((item, index) => (
+            <FoodBox
+              key={index}
+              image={item.image}
+              dessert={t("Cobbler")}
+              title={t(item.title)}
+            />
+          ))}
         </div>
       </div>
     </div>
