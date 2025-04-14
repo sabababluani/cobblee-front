@@ -2,6 +2,7 @@ import { Link } from "@/i18n/navigation";
 import FoodBox from "../components/FoodBox/FoodBox";
 import styles from "./page.module.scss";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 
 const Snacks = async () => {
   const t = await getTranslations("Snacks");
@@ -12,11 +13,12 @@ const Snacks = async () => {
           <Link href="/" className={styles.main}>
             {t("Main")}
           </Link>
-          <span>{">"}</span>
+          <Image src={"/arrowright.svg"} alt="arrow" width={24} height={22} />
+
           <Link href="/snacks" className={styles.main}>
             {t("Menu")}
           </Link>
-          <span>{">"}</span>
+          <Image src={"/arrowright.svg"} alt="arrow" width={24} height={22} />
           <Link href="/snacks" className={styles.cobbler}>
             {t("Snacks")}
           </Link>

@@ -22,7 +22,12 @@ const DetailedNews = () => {
               <Link href="/" className={styles.main}>
                 {t("Main")}
               </Link>
-              <span>{">"}</span>
+              <Image
+                src={"/arrowright.svg"}
+                alt="arrow"
+                width={24}
+                height={22}
+              />
               <span className={styles.cobbler}>{t("News")}</span>
             </div>
             <h1>{t("Title1")}</h1>

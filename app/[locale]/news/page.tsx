@@ -2,6 +2,7 @@ import { Link } from "@/i18n/navigation";
 import styles from "./page.module.scss";
 import { getTranslations } from "next-intl/server";
 import NewsBox from "./components/NewsBox/NewsBox";
+import Image from "next/image";
 
 const News = async () => {
   const t = await getTranslations("News");
@@ -12,7 +13,8 @@ const News = async () => {
           <Link href="/" className={styles.main}>
             {t("Main")}
           </Link>
-          <span>{">"}</span>
+          <Image src={"/arrowright.svg"} alt="arrow" width={24} height={22} />
+
           <Link href="/news" className={styles.cobbler}>
             {t("News")}
           </Link>

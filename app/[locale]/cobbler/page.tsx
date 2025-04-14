@@ -2,6 +2,7 @@ import { Link } from "@/i18n/navigation";
 import styles from "./page.module.scss";
 import FoodBox from "../components/FoodBox/FoodBox";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 
 const Cobbler = async () => {
   const t = await getTranslations("HomePage");
@@ -12,7 +13,7 @@ const Cobbler = async () => {
           <Link href="/" className={styles.main}>
             მთავარი
           </Link>
-          <span>{">"}</span>
+          <Image src={"/arrowright.svg"} alt="arrow" width={24} height={22} />
           <Link href="/cobbler" className={styles.cobbler}>
             ქობლერი
           </Link>
