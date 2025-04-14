@@ -24,9 +24,7 @@ const AboutUs = async () => {
           </span>
         </div>
       </div>
-      <div>
-        <AboutUsStats />
-      </div>
+      <AboutUsStats />
       <div className={styles.boxesContainer}>
         <div className={styles.container}>
           <ContentBox image="/coffee.svg" content={t("CoffeeCupBox")} />
