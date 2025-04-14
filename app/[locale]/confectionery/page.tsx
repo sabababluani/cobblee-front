@@ -2,10 +2,15 @@ import { Link } from "@/i18n/navigation";
 import styles from "./page.module.scss";
 import FoodBox from "../components/FoodBox/FoodBox";
 import { getTranslations } from "next-intl/server";
+<<<<<<< HEAD
 import Image from "next/image";
+=======
+import { confectioneryItemsData } from "./utils/confectionery-items";
+>>>>>>> 2ea90e5945102438a2725c1cdb51a0204158b4c7
 
 const Confectionery = async () => {
   const t = await getTranslations("Confectionery");
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.contentWrapper}>
@@ -23,21 +28,14 @@ const Confectionery = async () => {
           </Link>
         </div>
         <div className={styles.container}>
-          <FoodBox
-            image={"/cinannamon.png"}
-            dessert={t("ConfectioneryHeading")}
-            title={t("Cinannamon")}
-          />
-          <FoodBox
-            image={"/raisinRoll.png"}
-            dessert={t("ConfectioneryHeading")}
-            title={t("RaisinRoll")}
-          />
-          <FoodBox
-            image={"/kruasani.png"}
-            dessert={t("ConfectioneryHeading")}
-            title={t("Croissant")}
-          />
+          {confectioneryItemsData.map((item, index) => (
+            <FoodBox
+              key={index}
+              image={item.image}
+              dessert={t("ConfectioneryHeading")}
+              title={t(item.titleKey)}
+            />
+          ))}
         </div>
       </div>
     </div>

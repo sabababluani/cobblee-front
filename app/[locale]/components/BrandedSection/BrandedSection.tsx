@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import styles from "./BrandedSection.module.scss";
 import FoodBox from "../FoodBox/FoodBox";
+import { brandedItemsData } from "./utils/branded-items";
 
 const BrandedSection = async () => {
   const t = await getTranslations("HomePage");
@@ -12,36 +13,14 @@ const BrandedSection = async () => {
         <span>{t("BrandedHeadingDescription")}</span>
       </div>
       <div className={styles.container}>
-        <FoodBox
-          image={"/iceCream1.png"}
-          dessert={t("Cobbler")}
-          title={t("Berries")}
-        />
-        <FoodBox
-          image={"/iceCream2.png"}
-          dessert={t("Cobbler")}
-          title={t("ApplePearCinnamon")}
-        />
-        <FoodBox
-          image={"/iceCream3.png"}
-          dessert={t("Cobbler")}
-          title={t("DubaiChocolate")}
-        />
-        <FoodBox
-          image={"/iceCream4.png"}
-          dessert={t("Cobbler")}
-          title={t("MangoPassionFruit")}
-        />
-        <FoodBox
-          image={"/iceCream5.png"}
-          dessert={t("Cobbler")}
-          title={t("Kiwi")}
-        />
-        <FoodBox
-          image={"/iceCream6.png"}
-          dessert={t("Cobbler")}
-          title={t("Strawberry")}
-        />
+        {brandedItemsData.map((item, index) => (
+          <FoodBox
+            key={index}
+            image={item.image}
+            dessert={t("Cobbler")}
+            title={t(item.titleKey)}
+          />
+        ))}
       </div>
     </div>
   );

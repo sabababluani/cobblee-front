@@ -2,10 +2,15 @@ import { Link } from "@/i18n/navigation";
 import FoodBox from "../components/FoodBox/FoodBox";
 import styles from "./page.module.scss";
 import { getTranslations } from "next-intl/server";
+<<<<<<< HEAD
 import Image from "next/image";
+=======
+import { SnackItemsData } from "./utils/snack-items.data";
+>>>>>>> 2ea90e5945102438a2725c1cdb51a0204158b4c7
 
 const Snacks = async () => {
   const t = await getTranslations("Snacks");
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.contentWrapper}>
@@ -23,43 +28,16 @@ const Snacks = async () => {
             {t("Snacks")}
           </Link>
         </div>
-        <div className={styles.container}>
-          <FoodBox
-            image={"/burgerJuice.png"}
-            dessert={t("SnackHeading")}
-            title={t("BagelWithLore")}
-          />
-          <FoodBox
-            image={"/burgerOnly.png"}
-            dessert={t("SnackHeading")}
-            title={t("BagelWithSalmon")}
-          />
-          <FoodBox
-            image={"/acharuli.png"}
-            dessert={t("SnackHeading")}
-            title={t("AcharuliKhachapuri")}
-          />
-          <FoodBox
-            image={"/khachapuri.png"}
-            dessert={t("SnackHeading")}
-            title={t("Khachapuri")}
-          />
 
-          <FoodBox
-            image={"/toastLore.png"}
-            dessert={t("SnackHeading")}
-            title={t("CheeseLoreToast")}
-          />
-          <FoodBox
-            image={"/kruasane.png"}
-            dessert={t("SnackHeading")}
-            title={t("CroissantSandwich")}
-          />
-          <FoodBox
-            image={"/chabataSandwichTomato.png"}
-            dessert={t("SnackHeading")}
-            title={t("ChabataSandwichWithMozzarella")}
-          />
+        <div className={styles.container}>
+          {SnackItemsData.map((item, index) => (
+            <FoodBox
+              key={index}
+              image={item.image}
+              dessert={t("SnackHeading")}
+              title={t(item.titleKey)}
+            />
+          ))}
         </div>
       </div>
     </div>

@@ -7,19 +7,24 @@ import BrandedSection from "./components/BrandedSection/BrandedSection";
 import Testemonials from "./components/Testemonials/Testemonials";
 import ContactSection from "./components/ContactSection/ContactSection";
 import BlurBackground from "./components/FirstBackground/FirstBackground";
+import { contentBoxesData } from "./utils/content-boxes";
 
 export default async function Home() {
   const t = await getTranslations("HomePage");
+
   return (
     <div className={styles.wrapper}>
       <BlurBackground />
       <MainBanner />
       <div className={styles.content}>
         <div className={styles.container}>
-          <ContentBox image="/coffee.svg" content={t("CoffeeCupBox")} />
-          <ContentBox image="/Wifi.svg" content={t("WifiBox")} />
-          <ContentBox image="/cup.svg" content={t("DessertBox")} />
-          <ContentBox image="/drink.svg" content={t("CoffeeBeansBox")} />
+          {contentBoxesData.map((item, index) => (
+            <ContentBox
+              key={index}
+              image={item.image}
+              content={t(item.contentKey)}
+            />
+          ))}
         </div>
       </div>
       <div className={styles.aboutUs}>
