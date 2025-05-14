@@ -2,11 +2,8 @@ import { Link } from "@/i18n/navigation";
 import styles from "./page.module.scss";
 import FoodBox from "../components/FoodBox/FoodBox";
 import { getTranslations } from "next-intl/server";
-<<<<<<< HEAD
 import Image from "next/image";
-=======
 import { confectioneryItemsData } from "./utils/confectionery-items";
->>>>>>> 2ea90e5945102438a2725c1cdb51a0204158b4c7
 
 const Confectionery = async () => {
   const t = await getTranslations("Confectionery");
