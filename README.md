@@ -18,7 +18,7 @@ A stylish and modern cafe landing website built using **Next.js**, featuring mul
 - **i18next** – Internationalization library
 - **next-i18next** – Integration of i18next with Next.js
 - **SCSS / CSS Modules** – Component-level styling
-- **TypeScript** *(optional if used)* – Static typing
+- **TypeScript** – Static typing
 
 ## 📦 Installation
 
